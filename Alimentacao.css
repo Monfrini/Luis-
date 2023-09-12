@@ -1,0 +1,83 @@
+body{
+		width: 100%;
+		font-family: Arial, Verdana, sans-serif;
+		color: #665544;
+		text-align: center;
+		background-color: #FFFFFF;
+		
+		
+}
+#gato1 {
+	width: 400px;
+	border: 10px solid black;
+	
+}
+
+img {
+	width: 150px;
+	border: 10px solid black;
+}
+.racao{
+	border: 10px solid black;
+	margin:2% auto 2% auto;
+	width: 50%;
+	padding: 5% 1% 5% 1%;
+	background-color: white;
+	
+}
+.pontos{
+	float: left;
+}
+
+
+#alimento{
+	font-size: 30px;
+	background-color: ;
+	color: black;
+}
+
+.comida{
+	border: 10px solid black;
+	margin:2% auto 2% auto;
+	width: 50%;
+	padding: 8% 1% 8% 1%;
+	background-color: white;
+}
+
+.titulo{
+	background-color: #007bff;
+	padding: 10px 5px 10px 5px;
+}
+
+nav {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+	
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header {
+    background-color: #194fee;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,64 @@
+body{
+		width: 100%;
+		font-family: Arial, Verdana, sans-serif;
+		color: #665544;
+		float: right;
+		background-color: #FFFFFF;
+		
+		
+}
+
+nav {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+	
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header {
+    background-color: #194fee;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+	width: 100px;
+	text-align: right;
+}
+
+.raca{
+	border: 10px solid black;
+	margin:2% auto 2% auto;
+	width: 50%;
+	padding: 5% 1% 5% 1%;
+	background-color: white;
+
+}	
+
+.raca img {
+	float: right;
+	width: 250px;
+	border: 5px solid black;
+}
+	
+	
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+h1{
+	background-color: #007bff;
+	padding: 10px 5px 10px 5px;
+}

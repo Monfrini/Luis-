@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+	<link rel="stylesheet" href="login.css">
+	<script src="prefixfree.min.js"></script>
+</head>
+
+<body>
+
+<div id="inicio1">
+<h1>Hora de fazer o login</h1>
+</div>
+<nav>
+<a href='index.html'>Inicio</a>
+<a href='Alimentacao.html'>Alimentação</a>
+<a href='Racas.html'>Raças</a>
+<a href='Doencas.html'>Doenças e prevenções</a>
+<a href='Vivendocomadoenca.html'>Convivendo com a doença</a>
+<a href='Dicas.html'>Dicas</a>
+</nav>
+
+
+<article>
+<h4>Preencha o campo abaixo para efetuar seu login:</h4>
+<h6>Informe seu nome:</h6>
+<form>
+<form action="/login.php" method="post">
+<label for="nome">Nome:</label>
+<input type="text" name="nome" id="nome" required placeholder="Informe seu nome...">
+
+	<input type="submit">
+</form>
+<br>
+<br>
+
+<h6>Informe seu email:</h6>
+<form>
+<form action="/email.php" method="post">
+<label for="email">Email:</label>
+<input type="email" email="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="xxxx@xxx.xx">
+
+	<input type="submit">
+</form>
+<br>
+<br>
+<h6>Informe sua senha:</h6>
+<form>
+<form action="/senha.php" method="post">
+<label for="password">Senha:</label>
+<input type="text" password="password" id="email" required placeholder="Insira sua senha...">
+
+	<input type="submit">
+</form>
+<br>
+<br>
+
+<p>
+<label for=""><h4>Por que está acessando o site?</h4></label>
+</p>
+
+<p>
+<input type="radio" name="gato" id="gato" value="5"> <label for="Tenho um gato">Tenho um gato</label> 
+</p>
+
+<p> 
+<input type="radio" name="gato" id="gato" value="10"> <label for="Quero adotar um gato">Quero adotar um gato</label>
+</p>
+
+<p> 
+<input type="radio" name="gato" id="gato" value="20"> <label for="Tenho interesse no assunto">Tenho interesse no assunto</label>
+</p>
+
+<p> 
+<input type="radio" name="gato" id="gato" value="20"> <label for="Outro">Outro</label>
+</p>
+
+
+</article>
+</main>
+
+<footer>
+Cats By Guto Monfrini
+</footer>
